@@ -13,15 +13,15 @@ span
   width: 350px;
   height: 300px; 
 }
-#result_emotion_name ,#result_emotion_name2  
+#result_Hand_name1
 {
   color: black;
 }
-.emotion_name
+.Hand_name
 {
   font-size: 40px;
 }
-.emoji
+.Hand_gesture
 {
   font-size:48px;
 }
