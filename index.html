@@ -41,7 +41,7 @@ html>
 
       <p style="font-size: 22px;">Take a selfie of a Gesture to know about it's meaning 
       	<br>
-        <b style="color: yellow">On the following gesture model is trained</b>
+        <b style="color: rgb(194, 10, 124)">On the following gesture model is trained</b>
       </p>
 
       <span>&#128076;</span>
@@ -52,19 +52,28 @@ html>
 
       <br><br>
 
-      <div class="col-md-4 col-sm-12 col-xs-12">
-	      <label>Webcam View - </label>
-        <div id="camera"></div>
-        <br><br>
-        <button onclick="take_snapshot()" class="btn btn-warning">Capture Image</button>
-      </div>
 
       <div class="col-md-4 col-sm-12 col-xs-12">
         <label>Prediction : </label>
         <p class="Hand_name" id="result_Hand_name1"></p>
         <p class="Hand_gesture" id="update_handGesture1"></p>
+        </div>
 
-        <br><br>
+        <div class="col-md-4 col-sm-12 col-xs-12">
+          <label>Prediction 2 : </label>
+          <p class="Hand_name" id="result_Hand_name2"></p>
+          <p class="Hand_gesture" id="update_handGesture2"></p>
+          </div>
+
+<span>
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <label>Webcam View - </label>
+            <div id="camera"></div>
+            <br><br>
+            <button onclick="take_snapshot()" class="btn btn-warning">Capture Image</button>
+          </div>
+
+          <hr><hr>
 
       <div class="col-md-4 col-sm-12 col-xs-12">
         <label>Snapshot - </label>
@@ -72,6 +81,7 @@ html>
         <br><br>
         <button onclick="check()" class="btn btn-success">Predict Hand Gesture</button>
       </div>
+    </span>
 
     </center>
 

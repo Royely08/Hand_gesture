@@ -1,7 +1,7 @@
 body
 {
-  color: white;
-  background: #c0d3ff;
+  color: red;
+  background: #b3f8a2;
 }
 span
 {
@@ -13,9 +13,10 @@ span
   width: 350px;
   height: 300px; 
 }
-#result_Hand_name1
+#result_Hand_name1,#result_Hand_name2
 {
   color: black;
+  font-family: verdana;
 }
 .Hand_name
 {
@@ -32,7 +33,7 @@ span
 }
 label{
   font-size: 14px;
-  color: #62b33a;
+  color:royalblue;
   padding: 6px;
   background-color: white;
   border-radius: 10px;
