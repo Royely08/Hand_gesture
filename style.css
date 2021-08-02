@@ -1,7 +1,7 @@
 body
 {
-  color: red;
-  background: #b3f8a2;
+  color: white;
+  background: #c0d3ff;
 }
 span
 {
@@ -13,16 +13,15 @@ span
   width: 350px;
   height: 300px; 
 }
-#result_Hand_name1,#result_Hand_name2
+#result_hand_name1 ,#result_hand_name2  
 {
   color: black;
-  font-family: verdana;
 }
-.Hand_name
+.hand_name
 {
   font-size: 40px;
 }
-.Hand_gesture
+.hand_gesture
 {
   font-size:48px;
 }
@@ -33,7 +32,7 @@ span
 }
 label{
   font-size: 14px;
-  color:royalblue;
+  color: #62b33a;
   padding: 6px;
   background-color: white;
   border-radius: 10px;

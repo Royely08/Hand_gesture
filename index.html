@@ -1,4 +1,4 @@
-html>
+<html>
   <head>
     <title>Hand Gesture App</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,7 @@ html>
   
     <center>
 
-      <h3 class="btn btn-danger heading">Hand Gesture App
+      <h3 class="btn btn-warning heading">Hand Gesture App
       <br>
       <span>&#128076;</span>
       <span>&#9994;</span>
@@ -35,36 +35,38 @@ html>
       <span>&#128400;</span>
       <span>&#128406;</span>
       <span>&#129304;</span>
+
     </h3>
 
       <br><br>
 
       <p style="font-size: 22px;">Take a selfie of a Gesture to know about it's meaning 
-      	<br>
+        <br>
         <b style="color: rgb(194, 10, 124)">On the following gesture model is trained</b>
       </p>
-
+ 
       <span>&#128076;</span>
       <hr>
       <span>&#9996;</span>
       <hr>
       <span>&#128077;</span>
-
+ 
       <br><br>
-
-
+ 
       <div class="col-md-4 col-sm-12 col-xs-12">
         <label>Prediction : </label>
         <p class="Hand_name" id="result_Hand_name1"></p>
         <p class="Hand_gesture" id="update_handGesture1"></p>
         </div>
 
+        <hr><hr>
+ 
         <div class="col-md-4 col-sm-12 col-xs-12">
           <label>Prediction 2 : </label>
           <p class="Hand_name" id="result_Hand_name2"></p>
           <p class="Hand_gesture" id="update_handGesture2"></p>
           </div>
-
+ 
 <span>
           <div class="col-md-4 col-sm-12 col-xs-12">
             <label>Webcam View - </label>
@@ -73,8 +75,7 @@ html>
             <button onclick="take_snapshot()" class="btn btn-warning">Capture Image</button>
           </div>
 
-          <hr><hr>
-
+ 
       <div class="col-md-4 col-sm-12 col-xs-12">
         <label>Snapshot - </label>
         <div id="result"></div>
@@ -82,14 +83,12 @@ html>
         <button onclick="check()" class="btn btn-success">Predict Hand Gesture</button>
       </div>
     </span>
-
+ 
     </center>
-
+ 
   </div>
-
+ 
 <script src="main.js"></script>
-
+ 
   </body>
 </html>
-
- 
